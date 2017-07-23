@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A63FBA11F21AE6100A4C0E7 /* PreloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A63FBA01F21AE6100A4C0E7 /* PreloadViewController.m */; };
 		5F2836BD1D96548E000910CA /* VICacheAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2836B41D96548E000910CA /* VICacheAction.m */; };
 		5F2836BE1D96548E000910CA /* VICacheConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2836B61D96548E000910CA /* VICacheConfiguration.m */; };
 		5F2836BF1D96548E000910CA /* VICacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2836B81D96548E000910CA /* VICacheManager.m */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A63FB9F1F21AE6100A4C0E7 /* PreloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreloadViewController.h; sourceTree = "<group>"; };
+		3A63FBA01F21AE6100A4C0E7 /* PreloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreloadViewController.m; sourceTree = "<group>"; };
 		5F2836B31D96548E000910CA /* VICacheAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VICacheAction.h; sourceTree = "<group>"; };
 		5F2836B41D96548E000910CA /* VICacheAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VICacheAction.m; sourceTree = "<group>"; };
 		5F2836B51D96548E000910CA /* VICacheConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VICacheConfiguration.h; sourceTree = "<group>"; };
@@ -150,6 +153,8 @@
 				5F5FA60E1CEA2BE2004439D3 /* Supporting Files */,
 				5F5FA67D1CEA2D95004439D3 /* PlayerView.h */,
 				5F5FA67E1CEA2D95004439D3 /* PlayerView.m */,
+				3A63FB9F1F21AE6100A4C0E7 /* PreloadViewController.h */,
+				3A63FBA01F21AE6100A4C0E7 /* PreloadViewController.m */,
 			);
 			path = VIMediaCacheDemo;
 			sourceTree = "<group>";
@@ -309,6 +314,7 @@
 				5F2836C11D96548E000910CA /* VIMediaCacheWorker.m in Sources */,
 				5F5FA6131CEA2BE2004439D3 /* AppDelegate.m in Sources */,
 				5FDCF2B01CEBF26800188E0C /* VIResourceLoader.m in Sources */,
+				3A63FBA11F21AE6100A4C0E7 /* PreloadViewController.m in Sources */,
 				5FDCF2B11CEBF26800188E0C /* VIResourceLoaderManager.m in Sources */,
 				5F2836C01D96548E000910CA /* VICacheSessionManager.m in Sources */,
 				5F5FA6101CEA2BE2004439D3 /* main.m in Sources */,

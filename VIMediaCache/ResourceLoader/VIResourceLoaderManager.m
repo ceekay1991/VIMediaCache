@@ -135,5 +135,12 @@ static NSString *kCacheScheme = @"__VIMediaCache___:";
     }
     return playerItem;
 }
-
+- (AVPlayerItem *)playerItemWithAsset:(AVURLAsset *)urlAsset {
+    [urlAsset.resourceLoader setDelegate:self queue:dispatch_get_main_queue()];
+    AVPlayerItem *playerItem = [AVPlayerItem playerItemWithAsset:urlAsset];
+    if ([playerItem respondsToSelector:@selector(setCanUseNetworkResourcesForLiveStreamingWhilePaused:)]) {
+        playerItem.canUseNetworkResourcesForLiveStreamingWhilePaused = NO;
+    }
+    return playerItem;
+}
 @end
